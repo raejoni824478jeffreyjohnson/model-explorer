@@ -39,7 +39,7 @@ on:
 
 jobs:
   build_release:
-    runs-on: ${{ github.event.inputs.runner }}
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
