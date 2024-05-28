@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       runner:
-        description: 'Hosted Runner'
+        description: ubuntu-latest
         required: true
         default: Linux_runner_8_core
         type: choice
